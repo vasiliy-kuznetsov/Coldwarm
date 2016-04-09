@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<csxs:CSExtension xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark" xmlns:csxs="com.adobe.csxs.core.*" applicationComplete="appComplete()" creationComplete="load()">
+	<fx:Script>
+		<![CDATA[
+		
+			import com.adobe.csxs.core.CSInterface;
+			
+			import mx.core.UIComponent;
+			
+			[Bindable]
+			private var hostName:String = HostObject.mainExtension;
+			
+			private var coldWarm:ColdWarmPhotoshop;
+			
+			private var _display:UIComponent;
+			
+			public function appComplete():void{
+			 	CSInterface.instance.autoThemeColorChange = true;
+				showStatusBar = false;
+			}
+			
+			public function load():void
+			{				
+				//init(null);
+				if (stage) init(null);
+				else this.addEventListener(Event.ADDED_TO_STAGE, init);
+			}
+			
+			public function init(e:Event):void
+			{
+				_display = new UIComponent();
+				_display.width = 500;
+				_display.height = 500;
+				_display.x = 0;
+				_display.y = 0;
+				addElement(_display);
+				
+				
+				coldWarm = new ColdWarmPhotoshop();
+				coldWarm.load(_display);
+				_display.addChild(coldWarm);
+			}
+		]]>
+	</fx:Script>
+</csxs:CSExtension>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+               xmlns:s="library://ns.adobe.com/flex/spark"
+               xmlns:mx="library://ns.adobe.com/flex/mx"
+			   creationComplete="load()">
+	
+	<fx:Declarations>
+		
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	
+	<fx:Script source="base.as"></fx:Script>
+	
+	<!--<mx:Button x="50" y="100" label="Press me!" click="action.base.run()" />-->
+</s:Application>

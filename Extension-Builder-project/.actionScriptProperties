@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<actionScriptProperties analytics="false" mainApplicationPath="ColdWarm.mxml" projectUUID="e60d95cf-c4e2-4233-a1f0-019afd5aeb6c" version="10">
+  <compiler additionalCompilerArguments="-locale en_US -includes=mx.managers.systemClasses.MarshallingSupport" autoRSLOrdering="true" copyDependentFiles="true" flexSDK="Extension Builder 4.5" fteInMXComponents="false" generateAccessible="false" htmlExpressInstall="false" htmlGenerate="false" htmlHistoryManagement="false" htmlPlayerVersionCheck="false" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="true" useDebugRSLSwfs="true" verifyDigests="true" warn="true">
+    <compilerSourcePath/>
+    <libraryPath defaultLinkType="1">
+      <libraryPathEntry kind="4" path=""/>
+      <libraryPathEntry kind="3" linkType="2" path="${CSLIBS}/2.0/4.5/release/apedelta.swc" useDefaultLinkType="false"/>
+      <libraryPathEntry kind="3" linkType="1" path="${CSAR}/release/CSXSLibrary-3.0-sdk-4.5-public.swc" useDefaultLinkType="false"/>
+      <libraryPathEntry kind="3" linkType="1" path="${CSLIBS}/2.0/4.5/release/csaw_photoshop.swc" useDefaultLinkType="false"/>
+    </libraryPath>
+    <sourceAttachmentPath/>
+  </compiler>
+  <applications>
+    <application path="ColdWarm.mxml"/>
+  </applications>
+  <modules/>
+  <buildCSSFiles/>
+  <flashCatalyst validateFlashCatalystCompatibility="false"/>
+</actionScriptProperties>
